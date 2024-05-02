@@ -47,6 +47,10 @@
                 <li> <a href="{{ route('add.movie') }}"><i class='bx bx-radio-circle'></i>Add Movie</a>
                 </li>
             </ul>
+            <ul>
+                <li> <a href="{{ route('all.booking') }}"><i class='bx bx-radio-circle'></i>All Bookings</a>
+                </li>
+            </ul>
         </li>
 
 

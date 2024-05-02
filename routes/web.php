@@ -8,6 +8,7 @@ use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\Backend\UsersController;
+use App\Http\Controllers\Backend\BookingsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -77,7 +78,7 @@ Route::middleware(['auth', 'roles:admin'])->group(function(){
 });
 
 Route::middleware(['auth', 'roles:admin'])->group(function(){
-    // All club routes
+    // All user routes
     Route::controller(UsersController::class)->group(function(){
         Route::get('/all/user/', 'AllUser')->name('all.user');
         Route::get('/add/user', 'AddUser')->name('add.user');
@@ -85,6 +86,14 @@ Route::middleware(['auth', 'roles:admin'])->group(function(){
         Route::get('/edit/update/{id}', 'EditUser')->name('edit.user');
         Route::post('/user/update/{id}', 'UpdateUser')->name('user.update');
         Route::get('/user/delete/{id}', 'DeleteUser')->name('user.delete');
+     });
+});
+
+Route::middleware(['auth', 'roles:admin'])->group(function(){
+    // All bookings routes
+    Route::controller(BookingsController::class)->group(function(){
+        Route::get('/all/booking/', 'AllBooking')->name('all.booking');
+        Route::get('/booking/delete/{id}', 'DeleteBooking')->name('booking.delete');
      });
 });
 
