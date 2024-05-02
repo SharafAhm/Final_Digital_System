@@ -1,0 +1,462 @@
+[
+    {
+        "id": 1,
+        "title": "Avengers: Endgame",
+        "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+        "release_date": "2019-04-26",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 250,
+        "duration_minutes": 150
+    },
+    {
+        "id": 2,
+        "title": "The End of the F***ing World",
+        "description": "James is 17 and is pretty sure he is a psychopath. Alyssa, also 17, is the cool and moody new girl at school. The pair make a connection and she persuades him to embark on a road trip in search of her real father.",
+        "release_date": "2017-10-24",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BN2ZhNmQ2MjQtMmQzMi00YjE5LTlkMWMtMjk5YzIxMjk2NDc2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 150,
+        "duration_minutes": 120
+    },
+    {
+        "id": 3,
+        "title": "This Is the End",
+        "description": "Six Los Angeles celebrities are stuck in James Franco's house after a series of devastating events just destroyed the city. Inside, the group not only have to face the apocalypse, but themselves.",
+        "release_date": "2013-06-12",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQxODE3NjM1Ml5BMl5BanBnXkFtZTcwMzkzNjc4OA@@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 160,
+        "duration_minutes": 167
+    },
+    {
+        "id": 4,
+        "title": "The World's End",
+        "description": "Five friends who reunite in an attempt to top their epic pub crawl from twenty years earlier unwittingly become humanity's only hope for survival.",
+        "release_date": "2013-08-23",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNzA1MTk1MzY0OV5BMl5BanBnXkFtZTgwNjkzNTUwMDE@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 200,
+        "duration_minutes": 105
+    },
+    {
+        "id": 5,
+        "title": "End of Watch",
+        "description": "Shot documentary-style, this film follows the daily grind of two young police officers in LA who are partners and friends and what happens when they meet criminal forces greater than themselves.",
+        "release_date": "2012-09-21",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjMxNjU0ODU5Ml5BMl5BanBnXkFtZTcwNjI4MzAyOA@@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 100,
+        "duration_minutes": 142
+    },
+    {
+        "id": 6,
+        "title": "Ender's Game",
+        "description": "Young Ender Wiggin is recruited by the International Military to lead the fight against the Formics, an insectoid alien race who had previously tried to invade Earth and had inflicted heavy losses on humankind.",
+        "release_date": "2013-11-01",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAzMzI5OTgzMl5BMl5BanBnXkFtZTgwMTU5MTAwMDE@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 120,
+        "duration_minutes": 126
+    },
+    {
+        "id": 7,
+        "title": "Seeking a Friend for the End of the World",
+        "description": "As an asteroid nears Earth, a man finds himself alone after his wife leaves in a panic. He decides to take a road trip to reunite with his high school sweetheart. Accompanying him is a neighbor who inadvertently puts a wrench in h...",
+        "release_date": "2012-06-22",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTk4MDQ1NzE3N15BMl5BanBnXkFtZTcwMjA0MDkzNw@@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 190,
+        "duration_minutes": 122
+    },
+    {
+        "id": 8,
+        "title": "End of Days",
+        "description": "At the end of the century, Satan visits New York in search of a bride. It's up to an ex-cop who now runs an elite security outfit to stop him.",
+        "release_date": "1999-11-24",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjA3ZTgxNTgtMWExZS00OGI0LTk4MWYtZWEzYjQwYjEyOWUyXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 150,
+        "duration_minutes": 106
+    },
+    {
+        "id": 9,
+        "title": "Avengers: Infinity War",
+        "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+        "release_date": "2018-04-27",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 200,
+        "duration_minutes": 170
+    },
+    {
+        "id": 10,
+        "title": "Avengers: Age of Ultron",
+        "description": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
+        "release_date": "2015-05-01",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 250,
+        "duration_minutes": 108
+    },
+    {
+        "id": 11,
+        "title": "The Avengers: Earth's Mightiest Heroes",
+        "description": "After 74 villains break out of prison, Marvel's most powerful superheroes team up to capture all of them, and also to defend the Earth from widespread threats.",
+        "release_date": "2010-09-22",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYzA4ZjVhYzctZmI0NC00ZmIxLWFmYTgtOGIxMDYxODhmMGQ2XkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 600,
+        "duration_minutes": 122
+    },
+    {
+        "id": 12,
+        "title": "Ultimate Avengers: The Movie",
+        "description": "To confront an alien menace, General Fury assembles a team of superheroes lead by a recently resuscitated Captain America.",
+        "release_date": "2006-02-21",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTYyMjk0NTMwMl5BMl5BanBnXkFtZTgwNzY0NjAwNzE@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 600,
+        "duration_minutes": 92
+    },
+    {
+        "id": 13,
+        "title": "Avengers Assemble",
+        "description": "The further adventures of the Marvel Universe's mightiest general membership superhero team.",
+        "release_date": "2013-05-26",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY0NTUyMDQwOV5BMl5BanBnXkFtZTgwNjAwMTA0MDE@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 600,
+        "duration_minutes": 161
+    },
+    {
+        "id": 14,
+        "title": "Star Wars: Episode IV - A New Hope",
+        "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth ...",
+        "release_date": "1977-05-25",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 500,
+        "duration_minutes": 127
+    },
+    {
+        "id": 15,
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "description": "After the Rebel Alliance are overpowered by the Empire, Luke Skywalker begins his Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",
+        "release_date": "1980-06-18",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 500,
+        "duration_minutes": 192
+    },
+    {
+        "id": 16,
+        "title": "Star Wars: Episode VI - Return of the Jedi",
+        "description": "After rescuing Han Solo from Jabba the Hutt, the Rebels attempt to destroy the second Death Star, while Luke struggles to help Darth Vader back from the dark side.",
+        "release_date": "1983-05-25",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 550,
+        "duration_minutes": 187
+    },
+    {
+        "id": 17,
+        "title": "Star Wars: Episode VII - The Force Awakens",
+        "description": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
+        "release_date": "2015-12-18",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 590,
+        "duration_minutes": 165
+    },
+    {
+        "id": 18,
+        "title": "Star Wars: Episode I - The Phantom Menace",
+        "description": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory.",
+        "release_date": "1999-05-19",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 600,
+        "duration_minutes": 157
+    },
+    {
+        "id": 19,
+        "title": "Captain America: Civil War",
+        "description": "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
+        "release_date": "2016-05-06",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 610,
+        "duration_minutes": 172
+    },
+    {
+        "id": 20,
+        "title": "World War Z",
+        "description": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop a zombie pandemic that is toppling armies and governments and threatens to destroy humanity itself.",
+        "release_date": "2013-06-21",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNDQ4YzFmNzktMmM5ZC00MDZjLTk1OTktNDE2ODE4YjM2MjJjXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 677,
+        "duration_minutes": 137
+    },
+    {
+        "id": 21,
+        "title": "The Pursuit of Happyness",
+        "description": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career",
+        "release_date": "2006-12-15",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 212,
+        "duration_minutes": 104
+    },
+    {
+        "id": 22,
+        "title": "Happy Gilmore",
+        "description": "After his grandmothers house is repossessed by the IRS, bad tempered hockey player takes his talents to golf to earn the big bucks and get his grandmothers house back.",
+        "release_date": "1996-02-16",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZWI2NjliOTYtZjE1OS00YzAyLWJjYTQtYWNmZTQzMTQzNzVjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 200,
+        "duration_minutes": 198
+    },
+    {
+        "id": 23,
+        "title": "Happy Feet",
+        "description": "Into the world of the Emperor Penguins, who find their soul mates through song, a penguin is born who cannot sing. But he can tap dance something fierce!",
+        "release_date": "2006-11-17",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZWU2NDkxYjktNWVlMS00MTM4LWJjMDAtOWYxZjJkZWFhYzAxXkEyXkFqcGdeQXVyMTA1NjE5MTAz._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 300,
+        "duration_minutes": 167
+    },
+    {
+        "id": 24,
+        "title": "Happy Death Day",
+        "description": "A college student must relive the day of her murder over and over again, in a loop that will end only when she discovers her killer's identity.",
+        "release_date": "2017-10-13",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BY2M3MTM4ZTMtNjg0ZC00ZDVkLTkxNWQtNThkZGZkYTQ1MjAyXkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 200,
+        "duration_minutes": 97
+    },
+    {
+        "id": 25,
+        "title": "Happy Death Day 2U",
+        "description": "Tree Gelbman discovers that dying over and over was surprisingly easier than the dangers that lie ahead.",
+        "release_date": "2019-02-13",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTg0NzkwMzQyMV5BMl5BanBnXkFtZTgwNDcxMTMyNzM@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 150,
+        "duration_minutes": 148
+    },
+    {
+        "id": 26,
+        "title": "Happy Valley",
+        "description": "Yorkshire-based crime drama centering on the personal and professional life of Police Sergeant Catherine Cawood.",
+        "release_date": "2014-04-29",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNTBmYTQ5ZDYtM2NjMC00M2Q2LTg4NDAtODUxZTk0ZmFjMGVjXkEyXkFqcGdeQXVyNzQ5MzY0NjM@._V1_SX300.jpg",
+        "age_rating": "17",
+        "ticket_price": 100,
+        "duration_minutes": 189
+    },
+    {
+        "id": 27,
+        "title": "Happy Feet Two",
+        "description": "Mumble's son, Erik, is struggling to realize his talents in the Emperor Penguin world. Meanwhile, Mumble and his family and friends discover a new threat their home -- one that will take everyone working together to save them.",
+        "release_date": "2011-11-18",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQxYzliYWMtYjkwYi00YjMxLWIxNDgtODYxYmQyYjZkMGFlXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 120,
+        "duration_minutes": 179
+    },
+    {
+        "id": 28,
+        "title": "Fifty Shades of Grey",
+        "description": "Literature student Anastasia Steele's life changes forever when she meets handsome, yet tormented, billionaire Christian Grey.",
+        "release_date": "2015-02-13",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjE1MTM4NDAzOF5BMl5BanBnXkFtZTgwNTMwNjI0MzE@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 550,
+        "duration_minutes": 98
+    },
+    {
+        "id": 29,
+        "title": "Fifty Shades Darker",
+        "description": "While Christian wrestles with his inner demons, Anastasia must confront the anger and envy of the women who came before her.",
+        "release_date": "2017-02-10",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ5NTk0Njg2N15BMl5BanBnXkFtZTgwNzk5Nzk3MDI@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 600,
+        "duration_minutes": 133
+    },
+    {
+        "id": 30,
+        "title": "Fifty Shades Freed",
+        "description": "Anastasia and Christian get married, but Jack Hyde continues to threaten their relationship.",
+        "release_date": "2018-02-09",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTYxOTQ1MzI0Nl5BMl5BanBnXkFtZTgwMzgwMzIxNDM@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 600,
+        "duration_minutes": 173
+    },
+    {
+        "id": 31,
+        "title": "Little Shop of Horrors",
+        "description": "A nerdy florist finds his chance for success and romance with the help of a giant man-eating plant who demands to be fed.",
+        "release_date": "1986-12-19",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BYzUxZDI3MjktZmM4YS00MzdjLWE5MzctMmI4M2ViMDgxMmUzXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 200,
+        "duration_minutes": 100
+    },
+    {
+        "id": 32,
+        "title": "The Amityville Horror",
+        "description": "Newlyweds and their three children move into a large house where a mass murder was committed. They start to experience strange, inexplicable manifestations which have strong effects on everyone living in or visiting the house.",
+        "release_date": "1979-07-27",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTc0NDMyNTU3M15BMl5BanBnXkFtZTcwMjM0MTgwNA@@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 210,
+        "duration_minutes": 183
+    },
+    {
+        "id": 33,
+        "title": "Friends with Benefits",
+        "description": "A young man and woman decide to take their friendship to the next level without becoming a couple, but soon discover that adding sex only leads to complications.",
+        "release_date": "2011-07-22",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ2MzQ0NTk4N15BMl5BanBnXkFtZTcwMDc2NDYzNQ@@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 100,
+        "duration_minutes": 141
+    },
+    {
+        "id": 34,
+        "title": "Just Friends",
+        "description": "While visiting his hometown during Christmas, a man comes face-to-face with his old high-school crush and best friend--a woman whose rejection of him turned him into a ferocious womanizer.",
+        "release_date": "2005-11-23",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMjA0Mzg2NjUzMl5BMl5BanBnXkFtZTcwNDg2ODUzMQ@@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 250,
+        "duration_minutes": 163
+    },
+    {
+        "id": 35,
+        "title": "Spider-Man: No Way Home",
+        "description": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+        "release_date": "2021-12-17",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 400,
+        "duration_minutes": 159
+    },
+    {
+        "id": 36,
+        "title": "Spider-Man: Homecoming",
+        "description": "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
+        "release_date": "2017-07-07",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 500,
+        "duration_minutes": 196
+    },
+    {
+        "id": 37,
+        "title": "Home Alone",
+        "description": "An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve.",
+        "release_date": "1990-11-16",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMzFkM2YwOTQtYzk2Mi00N2VlLWE3NTItN2YwNDg1YmY0ZDNmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 200,
+        "duration_minutes": 159
+    },
+    {
+        "id": 38,
+        "title": "Miss Peregrine's Home for Peculiar Children",
+        "description": "When Jacob (Asa Butterfield) discovers clues to a mystery that stretches across time, he finds Miss Peregrine's Home for Peculiar Children. But the danger deepens after he gets to know the residents and learns about their special ...",
+        "release_date": "2016-09-30",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTU0Nzc5NzI5NV5BMl5BanBnXkFtZTgwNTk1MDE4MDI@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 200,
+        "duration_minutes": 90
+    },
+    {
+        "id": 39,
+        "title": "Home Alone 3",
+        "description": "Alex Pruitt, an 8-year-old boy living in Chicago, must fend off international spies who seek a top-secret computer chip in his toy car.",
+        "release_date": "1997-12-12",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BZTJhYjVhOWMtYTUyOS00NWM0LThjNzYtZWYxOTkwN2FhODg2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "age_rating": "PG",
+        "ticket_price": 300,
+        "duration_minutes": 186
+    },
+    {
+        "id": 40,
+        "title": "The Godfather",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "release_date": "1972-03-24",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 250,
+        "duration_minutes": 127
+    },
+    {
+        "id": 41,
+        "title": "The Godfather Part II",
+        "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+        "release_date": "1974-12-18",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 260,
+        "duration_minutes": 179
+    },
+    {
+        "id": 42,
+        "title": "The Dark Knight",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "release_date": "2008-07-18",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 600,
+        "duration_minutes": 142
+    },
+    {
+        "id": 43,
+        "title": "12 Angry Men",
+        "description": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.",
+        "release_date": "1957-04-10",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 100,
+        "duration_minutes": 151
+    },
+    {
+        "id": 44,
+        "title": "Schindler's List",
+        "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+        "release_date": "1994-02-04",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 200,
+        "duration_minutes": 149
+    },
+    {
+        "id": 45,
+        "title": "The Lord of the Rings: The Return of the King",
+        "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+        "release_date": "2003-12-17",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "age_rating": "13",
+        "ticket_price": 400,
+        "duration_minutes": 91
+    },
+    {
+        "id": 46,
+        "title": "Pulp Fiction",
+        "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "release_date": "1994-10-14",
+        "poster_url": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "age_rating": "18",
+        "ticket_price": 107,
+        "duration_minutes": 178
+    }
+]
