@@ -67,8 +67,8 @@ class BookingController extends Controller
 
     // Check the user's role to set the appropriate validation rules
     $seatValidationRules = $user->role === 'student' 
-        ? ['required', 'array', 'min:1', 'max:10', 'exists:seats,id']
-        : ['required', 'array', 'min:10', 'max:40', 'exists:seats,id'];
+        ? ['required', 'array', 'min:1', 'max:50', 'exists:seats,id']
+        : ['required', 'array', 'min:10', 'max:100', 'exists:seats,id'];
 
     $request->validate([
         'seats' => $seatValidationRules,

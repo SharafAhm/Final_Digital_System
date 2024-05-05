@@ -52,7 +52,13 @@
                                         <h6 class="mb-0">Role</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <input type="text" name="role" class="form-control" />
+                                        <select name="role" class="form-control">
+                                            <option value="">Select Role</option>
+                                            <option value="admin">rep</option>
+                                            <option value="student">student</option>
+                                            <option value="cinema_manager">cinema Manager</option>
+                                            <option value="account_manager">account Manager</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="row mb-3">
