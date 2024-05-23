@@ -1,14 +1,14 @@
 <?php
 
 use App\Http\Controllers\AdminController;
-use App\Http\Controllers\Backend\ClubController;
+use App\Http\Controllers\Backend\ServiceController;
 use App\Http\Controllers\BookingController;
-use App\Http\Controllers\MovieController;
+use App\Http\Controllers\TaskController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\Backend\UsersController;
-use App\Http\Controllers\Backend\BookingsController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -21,8 +21,8 @@ use App\Http\Controllers\Backend\BookingsController;
 |
 */
 
-Route::get('/', [MovieController::class, 'index'])->name('home');
-Route::get('/movies/{movie}', [MovieController::class, 'show'])->name('movies.show');
+Route::get('/', [TaskController::class, 'index'])->name('home');
+Route::get('/task/{task}', [TaskController::class, 'show'])->name('task.show');
 
 
 Route::middleware('guest')->group(function () {
@@ -38,8 +38,8 @@ Route::middleware('auth')->group(function () {
     Route::patch('/users/{user}', [UserController::class, 'update'])->name('users.update');
     Route::post('/logout', [UserController::class, 'logout'])->name('logout');
 
-    Route::get('/movies/{movie}/book/{date}/{showtime}', [BookingController::class, 'create'])->name('bookings.create');
-    Route::post('/movies/{movie}/book/{date}/{showtime}', [BookingController::class, 'store'])->name('bookings.store');
+    Route::get('/task/{task}/book/{date}/{showtime}', [BookingController::class, 'create'])->name('bookings.create');
+    Route::post('/task/{task}/book/{date}/{showtime}', [BookingController::class, 'store'])->name('bookings.store');
     Route::get('/bookings', [BookingController::class, 'index'])->name('bookings.index');
     Route::get('/bookings/{booking}', [BookingController::class, 'show'])->name('bookings.show');
     Route::patch('/bookings/{booking}', [BookingController::class, 'update'])->name('bookings.update');
@@ -48,31 +48,33 @@ Route::middleware('auth')->group(function () {
 
 // Admin Group Middleware
 Route::middleware(['auth', 'roles:admin'])->group(function(){
-    Route::get('/all/movie', [AdminController::class, 'AdminDashboard'])->name('admin.dashboard');
+    Route::get('/all/task', [AdminController::class, 'AdminDashboard'])->name('admin.dashboard');
     Route::get('/admin/logout', [AdminController::class, 'AdminLogout'])->name('admin.logout');
 });
 
 Route::middleware(['auth', 'roles:admin'])->group(function(){
-    // All club routes
-    Route::controller(ClubController::class)->group(function(){
-        Route::get('/all/club', 'AllClub')->name('all.club');
-        Route::get('/add/club', 'AddClub')->name('add.club');
-        Route::post('/club/store', 'StoreClub')->name('club.store');
-        Route::get('/edit/club/{id}', 'EditClub')->name('edit.club');
-        Route::post('/club/update/{id}', 'UpdateClub')->name('club.update');
-        Route::get('/club/delete/{id}', 'DeleteClub')->name('club.delete');
+    // All Service routes
+    Route::controller(ServiceController::class)->group(function(){
+        Route::get('/all/service', 'AllService')->name('all.service');
+        Route::get('/add/service', 'AddService')->name('add.service');
+        Route::post('/service/store', 'StoreService')->name('service.store');
+        Route::get('/edit/service/{id}', 'EditService')->name('edit.service');
+        Route::post('/service/update/{id}', 'UpdateService')->name('service.update');
+        Route::get('/service/delete/{id}', 'DeleteService')->name('service.delete');
      });
 });
 
 Route::middleware(['auth', 'roles:admin'])->group(function(){
-    // All Movie routes
-    Route::controller(MovieController::class)->group(function(){
-        Route::get('/all/movie', 'AllMovie')->name('all.movie');
-        Route::get('/add/movie', 'AddMovie')->name('add.movie');
-        Route::post('/movie/store', 'StoreMovie')->name('movie.store');
-        Route::get('/edit/movie/{id}', 'EditMovie')->name('edit.movie');
-        Route::post('/movie/update/{id}', 'UpdateMovie')->name('movie.update');
-        Route::get('/movie/delete/{id}', 'DeleteMovie')->name('movie.delete');
+    // All task routes
+    Route::controller(TaskController::class)->group(function(){
+        Route::get('/all/task', 'AllTask')->name('all.task');
+        Route::get('/add/task', 'AddTask')->name('add.task');
+        Route::post('/task/store', 'StoreTask')->name('task.store');
+        Route::get('/edit/task/{id}', 'EditTask')->name('edit.task');
+        Route::post('/task/update/{id}', 'UpdateTask')->name('task.update');
+        Route::get('/task/delete/{id}', 'DeleteTask')->name('task.delete');
+        Route::get('/get-user/{id}', [UserController::class, 'getUserById']);
+
 
      });
 });
@@ -102,4 +104,6 @@ Route::get('/payment-gateway', [PaymentController::class, 'showGateway'])->name(
 Route::get('/payment-gateway', function () {
     return view('payment_gateway');
 })->name('payment.gateway');
+
+Route::get('/get-user/{id}', [UserController::class, 'getUserById']);
 

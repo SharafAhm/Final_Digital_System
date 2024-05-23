@@ -6,13 +6,14 @@
         <div class="ps-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0 p-0">
-                    <a href="{{ route('add.club') }}" class="btn btn-outline-primary px-5 radius-30">Add Club</a>
+                    <a href="{{ route('add.club') }}" class="btn btn-outline-primary px-5"
+                        style="border-radius: 0; background-color: #FFCCCC; color: black;">Add Service</a>
                 </ol>
             </nav>
         </div>
     </div>
     <!--end breadcrumb-->
-    <h6 class="mb-0 text-uppercase">All Clubs</h6>
+    <h6 class="mb-0 text-uppercase">All Services</h6>
     <hr />
     <div class="card">
         <div class="card-body">
@@ -21,19 +22,10 @@
                     <thead>
                         <tr>
                             <th>ID</th>
-                            <th>Name</th>
-                            <th>Address</th>
-                            <th>Street Number</th>
-                            <th>Street Name</th>
-                            <th>City</th>
-                            <th>Post Code</th>
-                            <th>Mobile Number</th>
-                            <th>Email</th>
-                            <th>Represntative Id</th>
-                            <th>Balance</th>
-                            <th>Total Members</th>
-                            <th>Discount</th>
-                            <th>Action</th>
+                            <th>Service Name</th>
+                            <th>image ULR</th>
+                            <th>Description</th>
+                            <th>Starting Price</th>
                         </tr>
                     </thead>
                     <tbody>

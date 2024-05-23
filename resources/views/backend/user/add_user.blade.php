@@ -9,7 +9,6 @@
                 <ol class="breadcrumb mb-0 p-0">
                     <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                     </li>
-                    <li class="breadcrumb-item active" aria-current="page">Users</li>
                 </ol>
             </nav>
         </div>
@@ -41,6 +40,22 @@
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-3">
+                                        <h6 class="mb-0">Email</h6>
+                                    </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" name="email" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
+                                        <h6 class="mb-0">Mobile Number</h6>
+                                    </div>
+                                    <div class="col-sm-9 text-secondary">
+                                        <input type="text" name="mobile_number" class="form-control" />
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-3">
                                         <h6 class="mb-0">Age</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
@@ -54,10 +69,10 @@
                                     <div class="col-sm-9 text-secondary">
                                         <select name="role" class="form-control">
                                             <option value="">Select Role</option>
-                                            <option value="admin">rep</option>
-                                            <option value="student">student</option>
-                                            <option value="cinema_manager">cinema Manager</option>
-                                            <option value="account_manager">account Manager</option>
+                                            <option value="admin">Customer</option>
+                                            <option value="student">Manager</option>
+                                            <option value="cinema_manager">Worker</option>
+                                            <option value="account_manager">Supervisor</option>
                                         </select>
                                     </div>
                                 </div>

@@ -4,7 +4,7 @@
             <img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
         </div> --}}
         <div>
-            <h4 class="logo-text">UWEFlix</h4>
+            <h4 class="logo-text">Worker Dashboard</h4>
         </div>
         <div class="toggle-icon ms-auto"><i class='bx bx-arrow-back'></i>
         </div>
@@ -28,31 +28,29 @@
             <a href="javascript:;" class="has-arrow">
                 {{-- <div class="parent-icon"><i class="bx bx-category"></i>
                 </div> --}}
-                <div class="menu-title">Manage Clubs</div>
+                <div class="menu-title">Manage Services</div>
             </a>
             <ul>
-                <li> <a href="{{ route('all.club') }}"><i class='bx bx-radio-circle'></i>All Clubs</a>
+                <li> <a href="{{ route('all.club') }}"><i class='bx bx-radio-circle'></i>All Services</a>
                 </li>
-                <li> <a href="{{ route('add.club') }}"><i class='bx bx-radio-circle'></i>Add Club</a>
+                <li> <a href="{{ route('add.club') }}"><i class='bx bx-radio-circle'></i>Add Service</a>
                 </li>
             </ul>
             <a href="javascript:;" class="has-arrow">
                 {{-- <div class="parent-icon"><i class="bx bx-category"></i>
                 </div> --}}
-                <div class="menu-title">Manage Movies</div>
+                <div class="menu-title">Manage Task</div>
             </a>
             <ul>
-                <li> <a href="{{ route('all.movie') }}"><i class='bx bx-radio-circle'></i>All Movies</a>
+                <li> <a href="{{ route('all.movie') }}"><i class='bx bx-radio-circle'></i>My Task</a>
                 </li>
-                <li> <a href="{{ route('add.movie') }}"><i class='bx bx-radio-circle'></i>Add Movie</a>
+                <li> <a href="{{ route('add.movie') }}"><i class='bx bx-radio-circle'></i>Add Task</a>
                 </li>
             </ul>
             <ul>
-                <li> <a href="{{ route('all.booking') }}"><i class='bx bx-radio-circle'></i>All Bookings</a>
+                <li> <a href="{{ route('all.booking') }}"><i class='bx bx-radio-circle'></i>Pending Tasks</a>
                 </li>
             </ul>
         </li>
-
-
         <!--end navigation-->
 </div>

@@ -1,9 +1,10 @@
 @extends('admin.admin_dashboard')
 @section('admin')
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <div class="page-content">
     <!--breadcrumb-->
     <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
-        <div class="breadcrumb-title pe-3">Edit User</div>
+        <div class="breadcrumb-title pe-3">Add Task</div>
         <div class="ps-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0 p-0">
@@ -17,80 +18,59 @@
     <div class="container">
         <div class="main-body">
             <div class="row">
+
                 <div class="col-lg-8">
                     <div class="card">
-                        <form action="{{ route('user.update', ['id' => $user->id]) }}" method="POST"
-                            enctype="multipart/form-data">
+                        <form action="{{ route('movie.store') }}" method="POST" enctype="multipart/form-data">
                             @csrf
-
-                            <input type="hidden" name="id" id="{{ $user->id }}">
-
                             <div class="card-body">
+
                                 <div class="row mb-3">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0">First Name</h6>
+                                        <h6 class="mb-0">Description</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <input type="text" name="firstname" class="form-control"
-                                            value="{{ $user->firstname }}" />
+                                        <input type="text" name="title" class="form-control" />
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0">Last Name</h6>
+                                        <h6 class="mb-0">Assigned User</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <input type="text" name="lastname" class="form-control"
-                                            value="{{ $user->lastname }}" />
+                                        <input type="text" name="description" class="form-control" />
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0">Email</h6>
+                                        <h6 class="mb-0">Customer ID</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <input type="text" name="email" class="form-control"
-                                            value="{{ $user->email }}" />
+                                        <input type="text" name="duration_minutes" class="form-control" />
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0">Mobile Number</h6>
+                                        <h6 class="mb-0">Customer Name</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <input type="text" name="email" class="form-control"
-                                            value="{{ $user->mobile_number }}" />
+                                        <input type="text" name="duration_minutes" class="form-control" />
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0">Age</h6>
+                                        <h6 class="mb-0">Other Description</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <input type="text" name="age" class="form-control" value="{{ $user->age }}" />
+                                        <input type="text" name="age_rating" class="form-control" />
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0">Role</h6>
+                                        <h6 class="mb-0">Due Date</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <select name="role" class="form-control">
-                                            <option value="">Select Role</option>
-                                            <option value="admin">Customer</option>
-                                            <option value="student">Manager</option>
-                                            <option value="cinema_manager">Worker</option>
-                                            <option value="account_manager">Supervisor</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="row mb-3">
-                                    <div class="col-sm-3">
-                                        <h6 class="mb-0">Password</h6>
-                                    </div>
-                                    <div class="col-sm-9 text-secondary">
-                                        <input type="password" name="password" class="form-control"
-                                            value="{{ $user->password }}" />
+                                        <input type="date" name="release_date" class="form-control" />
                                     </div>
                                 </div>
                                 <div class="row mb-3">
@@ -98,12 +78,7 @@
                                         <h6 class="mb-0">Status</h6>
                                     </div>
                                     <div class="col-sm-9 text-secondary">
-                                        <select name="role" class="form-control">
-                                            <option value="">Select Status</option>
-                                            <option value="admin">Pending</option>
-                                            <option value="student">Approved</option>
-                                            <option value="student">Rejected</option>
-                                        </select>
+                                        <input type="text" name="duration_minutes" class="form-control" />
                                     </div>
                                 </div>
                                 <div class="row">
@@ -120,4 +95,20 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+            $('#image').change(function(e) {
+                if (e.target.files.length > 0) {
+                    var reader = new FileReader();
+                    reader.onload = function(e) {
+                        $('#posterPreview').attr('src', e.target.result);
+                    }
+                    reader.readAsDataURL(e.target.files[0]);
+                } else {
+                    $('#posterPreview').attr('src', "{{ asset('backend/assets/images/no-img.png') }}");
+                }
+            });
+        });
+</script>
 @endsection

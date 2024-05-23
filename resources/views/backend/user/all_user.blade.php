@@ -6,7 +6,8 @@
         <div class="ps-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0 p-0">
-                    <a href="{{ route('add.user') }}" class="btn btn-outline-primary px-5 radius-30">Add Users</a>
+                    <a href="{{ route('add.user') }}" class="btn btn-outline-primary px-5"
+                        style="border-radius: 0; background-color: #FFCCCC; color: black;">Add Users</a>
                 </ol>
             </nav>
         </div>
@@ -21,23 +22,29 @@
                     <thead>
                         <tr>
                             <th>User ID</th>
-                            <th>User Name</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Mobile Number</th>
                             <th>Age</th>
                             <th>Role</th>
+                            <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach ($user as $key => $item)
                         <tr>
                             <td>{{ $item->id }}</td>
-                            <td>{{ $item->username }}</td>
+                            <td>{{ $item->firstname }}</td>
+                            <td>{{ $item->lastname }}</td>
+                            <td>{{ $item->email }}</td>
+                            <td>{{ $item->mobile_number }}</td>
                             <td>{{ $item->age }}</td>
                             <td>{{ $item->role }}</td>
+                            <td>{{ $item->status }}</td>
                             <td>
                                 <a href="{{ route('edit.user', $item->id) }}"
                                     class="btn btn-warning px-3 radius-30">Edit</a>
-                                <a href="{{ route('user.delete', $item->id) }}"
-                                    class="btn btn-danger px-3 radius-30">Delete</a>
                             </td>
                         </tr>
                         @endforeach
